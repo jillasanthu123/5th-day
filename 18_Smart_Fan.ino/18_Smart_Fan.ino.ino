@@ -1,10 +1,3 @@
-/***********************************************************
-Project 18: Smart Fan
-Description: When an object comes in front of it, it detects and fan starts rotating. If odd number of times detected, fan rotates clockwise. If even number of times detected, fan rotates anti-clockwise.
-Company: Texoham eLearning Platform
-Website: www.texoham.com/elearning
-***********************************************************/
-
 const int irPin = 5;                // Arduino 2nd pin connected to signal pin of IR sensor
 const int ledPin = 12;              // Arduino 12th pin connected to LED
 const int motorPin1 = 3;            // Arduino 3rd pin connected to L293D pin Input1
